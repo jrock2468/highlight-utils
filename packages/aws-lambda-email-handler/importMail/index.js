@@ -3,6 +3,7 @@ const Volume = require("./Volume");
 const someSeries = require("async/someSeries");
 const kindleClippingsToJSON = require("kindle-clippings-to-json");
 const kindleEmailToJSON = require("kindle-email-to-json");
+const kindleOSXEmailToJSON = require("kindle-osx-email-to-json");
 const safariEmailToJSON = require("safari-books-csv-to-json");
 const textToJSON = require("highlights-email-to-json");
 
@@ -33,6 +34,7 @@ function importMail(mail) {
   return new Promise((resolve, reject) => {
     const importers = [
       kindleEmailToJSON,
+      kindleOSXEmailToJSON,
       safariEmailToJSON,
       kindleClippingsToJSON,
       textToJSON

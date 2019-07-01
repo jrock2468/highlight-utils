@@ -1,0 +1,14 @@
+{
+  "name": "kindle-osx-email-to-json",
+  "description": "Converts an email export of Kindle OSX notes into a JSON object",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Rocky Jones"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mailparser": "^2.3.2"
+  }
+}

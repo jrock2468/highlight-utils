@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`kindle-email-to-json converts rocky's export from mac wih notes 1`] = `
+Object {
+  "highlights": Array [
+    Object {
+      "color": "yellow",
+      "content": "Perrin was not sure which of the two men was more deadly, but he thought a mouse could starve on the difference.",
+      "location": "1542",
+    },
+    Object {
+      "color": "yellow",
+      "content": "My mother says men are different from us. She says we want to be in love, but only with the one we want; a man needs to be in love, but he will love the first woman to tie a string to his heart. ”",
+      "location": "2254",
+    },
+    Object {
+      "color": "yellow",
+      "content": "“ Rand is not the only one who might die next year, or next month, We might, too. Times are not what they were, and we cannot be, either. If you sit and wish for what you want, you may not see it this side of the grave. ”",
+      "location": "2314",
+    },
+  ],
+  "volume": Object {
+    "authors": Array [
+      "Jordan, Robert",
+    ],
+    "title": "The Shadow Rising: Book Four of 'The Wheel of Time' (Wheel of Time Other 4)",
+  },
+}
+`;
