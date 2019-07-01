@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 BLUE="\033[0;34m"
 NC='\033[0m' # No color
 
-if npm whoami | grep sawyerh -v
+if npm whoami | grep rocky -v
 then
   echo "${RED}✘ Not logged in as correct NPM user"
   exit 0
